@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeNavigatation"
+        android:enabled="true"
+        android:icon="@drawable/match"
+        android:title="오늘의 매치"/>
+
+    <item
+        android:id="@+id/registerNavigatation"
+        android:enabled="true"
+        android:icon="@drawable/register"
+        android:title="작성"/>
+
+    <item
+        android:id="@+id/myMatchNavigatation"
+        android:enabled="true"
+        android:icon="@drawable/hired"
+        android:title="나의 매치"/>
+
+    <item
+        android:id="@+id/myPageNavigatation"
+        android:enabled="true"
+        android:icon="@drawable/mypage"
+        android:title="마이페이지"/>
+
+
+
+</menu>

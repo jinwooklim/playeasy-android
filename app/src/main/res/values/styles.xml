@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="tabIndicatorColor">#ff00ff</item>
+        <item name="tabIndicatorHeight">2dp</item>
+    </style>
+
+
+    <!-- Material application theme. -->
+    <style name="mAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/MyAlertDialogStyle</item>
+        <item name="android:colorControlHighlight">@color/colorPoint</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorAccent">@color/colorPoint</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+    </style>
+
+
+
+</resources>

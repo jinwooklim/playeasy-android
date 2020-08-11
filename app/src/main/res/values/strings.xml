@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">playeasy</string>
+    <string name="kakao_app_key">21a86d13e77314dc6b5e713287400145</string>
+
+    <string name="activity_main">매치</string>
+    <string name="activity_match_detail"> 매치 상세 보기 </string>
+    <string name="activity_match_create"> 매치 생성</string>
+    <string name="spinner_match_create">진행 방식</string>
+    <string name="activity_match_modify"> 매치 수정 </string>
+
+    <string name="activity_mypage_mypage">마이 페이지</string>
+    <string name="activity_mypage_myInformation">내 정보</string>
+    <string name="activity_mypage_myInformation_modify">수정</string>
+    <string name="activity_mypage_myTeamManger">나의 팀 관리</string>
+    <string name="activity_mypage_myTeamMemberManger">나의 팀원 관리</string>
+    <string name="activity_mypage_noTeam"> 팀을 검색해주세요 </string>
+
+    <string name="activity_push_mymatchinfo">나의 매치 정보</string>
+
+    <string name="activity_team_teaminfo">소속 팀 정보</string>
+    <string name="activity_team_teamMember">소속 팀원 보기</string>
+    <string name="activity_team_teamselect">팀 선택</string>
+    <string name="activity_team_makeTeam">팀 만들기</string>
+    <string name="activity_teamApplyCurrentStatus">지원 현황</string>
+
+    <string name="channel_id">MATCH_ALARM</string>
+    <string name="channel_name">AppliedResult</string>
+    <string name="activity_mypage_myinfo">내 정보 </string>
+</resources>
