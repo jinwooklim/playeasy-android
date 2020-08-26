@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.prography.playeasy.R;
-import com.prography.playeasy.match.activity.MatchDetail;
+import com.prography.playeasy.match.activity.legacy.MatchDetail;
 import com.prography.playeasy.match.domain.models.Match;
 
 import java.util.ArrayList;

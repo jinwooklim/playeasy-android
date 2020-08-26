@@ -1,22 +1,20 @@
 package com.prography.playeasy.match.domain;
 
 import android.annotation.SuppressLint;
-import android.widget.Toast;
 
 import com.kakao.network.callback.ResponseCallback;
-import com.prography.playeasy.lib.RetrofitClientFactory;
+import com.prography.playeasy.lib.legacy.RetrofitClientFactory;
 
-import com.prography.playeasy.match.api.RetrofitMatchApi;
+import com.prography.playeasy.match.api.legacy.RetrofitMatchApi;
 import com.prography.playeasy.match.domain.dtos.LocationDto;
 import com.prography.playeasy.match.domain.dtos.MatchNoIdDto;
-import com.prography.playeasy.match.domain.dtos.request.MatchPostRequestDto;
-import com.prography.playeasy.match.domain.dtos.request.MatchUpdateRequestDto;
-import com.prography.playeasy.match.domain.dtos.response.MapResponseDto;
-import com.prography.playeasy.match.domain.dtos.response.MatchCreateResponseDto;
-import com.prography.playeasy.match.domain.dtos.response.MatchDetailDto;
-import com.prography.playeasy.match.domain.dtos.response.MatchListDto;
-import com.prography.playeasy.match.domain.dtos.response.MatchUpdateResponseDto;
-import com.prography.playeasy.match.domain.models.Match;
+import com.prography.playeasy.match.domain.dtos.request.legacy.MatchPostRequestDto;
+import com.prography.playeasy.match.domain.dtos.request.legacy.MatchUpdateRequestDto;
+import com.prography.playeasy.match.domain.dtos.response.legacy.MapResponseDto;
+import com.prography.playeasy.match.domain.dtos.response.legacy.MatchCreateResponseDto;
+import com.prography.playeasy.match.domain.dtos.response.legacy.MatchDetailDto;
+import com.prography.playeasy.match.domain.dtos.response.legacy.MatchListDto;
+import com.prography.playeasy.match.domain.dtos.response.legacy.MatchUpdateResponseDto;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
